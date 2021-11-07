@@ -1,0 +1,198 @@
+2021-11-07 03:44:38.907  WARN 14424 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=3h30s444ms735µs100ns).
+2021-11-07 09:51:53.056  WARN 14424 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=6h7m43s546ms366µs800ns).
+2021-11-07 09:53:29.975  INFO 14424 --- [http-nio-1234-exec-4] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:00:07.598  INFO 14424 --- [http-nio-1234-exec-6] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:12:48.886  INFO 14424 --- [http-nio-1234-exec-8] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:13:26.369  INFO 14424 --- [http-nio-1234-exec-9] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:13:29.579  INFO 14424 --- [http-nio-1234-exec-10] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:19:13.514  INFO 14424 --- [http-nio-1234-exec-2] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:19:23.673  INFO 14424 --- [http-nio-1234-exec-3] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:21:57.743  INFO 14424 --- [http-nio-1234-exec-7] c.e.d.controller.AddressbookController   : In Add
+2021-11-07 10:22:04.085  INFO 14424 --- [http-nio-1234-exec-8] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:24:17.242  INFO 14424 --- [http-nio-1234-exec-10] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:25:14.757  INFO 14424 --- [http-nio-1234-exec-1] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:25:18.756  WARN 14424 --- [http-nio-1234-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.example.demo.dto.ResponseDTO> com.example.demo.controller.AddressbookController.delete(com.example.demo.entities.Contact,int)]
+2021-11-07 10:25:52.517  INFO 14424 --- [http-nio-1234-exec-4] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:25:53.919  WARN 14424 --- [http-nio-1234-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.example.demo.dto.ResponseDTO> com.example.demo.controller.AddressbookController.delete(com.example.demo.entities.Contact,int)]
+2021-11-07 10:27:43.243  INFO 14424 --- [restartedMain] com.example.demo.AddressbookApplication  : Starting AddressbookApplication using Java 16.0.2 on DESKTOP-99BK1H6 with PID 14424 (C:\Users\TheUA\Documents\workspace-spring-tool-h2\addressbook\target\classes started by TheUA in C:\Users\TheUA\Documents\workspace-spring-tool-h2\addressbook)
+2021-11-07 10:27:43.244 DEBUG 14424 --- [restartedMain] com.example.demo.AddressbookApplication  : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-11-07 10:27:43.244  INFO 14424 --- [restartedMain] com.example.demo.AddressbookApplication  : No active profile set, falling back to default profiles: default
+2021-11-07 10:27:46.434  WARN 14424 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-07 10:27:46.609  INFO 14424 --- [restartedMain] com.example.demo.AddressbookApplication  : Started AddressbookApplication in 3.521 seconds (JVM running for 136856.78)
+2021-11-07 10:27:46.611  INFO 14424 --- [restartedMain] com.example.demo.AddressbookApplication  : Runningg...!
+2021-11-07 10:28:00.663  INFO 14424 --- [http-nio-1234-exec-1] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:28:02.752  INFO 14424 --- [http-nio-1234-exec-2] c.e.d.controller.AddressbookController   : In Delete
+2021-11-07 10:28:12.586  INFO 14424 --- [http-nio-1234-exec-3] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:28:55.746  INFO 14424 --- [http-nio-1234-exec-4] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:29:26.271  INFO 14424 --- [http-nio-1234-exec-5] c.e.d.controller.AddressbookController   : In Add
+2021-11-07 10:29:28.680  INFO 14424 --- [http-nio-1234-exec-6] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:29:30.369  INFO 14424 --- [http-nio-1234-exec-8] c.e.d.controller.AddressbookController   : In Delete
+2021-11-07 10:29:36.934  INFO 14424 --- [http-nio-1234-exec-9] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:30:19.072  INFO 14424 --- [http-nio-1234-exec-10] c.e.d.controller.AddressbookController   : In Add
+2021-11-07 10:30:21.753  INFO 14424 --- [http-nio-1234-exec-1] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:30:25.082  INFO 14424 --- [http-nio-1234-exec-3] c.e.d.controller.AddressbookController   : In Delete
+2021-11-07 10:30:39.103  INFO 14424 --- [http-nio-1234-exec-4] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:30:44.986  INFO 14424 --- [http-nio-1234-exec-5] c.e.d.controller.AddressbookController   : In Add
+2021-11-07 10:30:47.032  INFO 14424 --- [http-nio-1234-exec-6] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:30:48.555  INFO 14424 --- [http-nio-1234-exec-8] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:30:48.775  INFO 14424 --- [http-nio-1234-exec-9] c.e.d.controller.AddressbookController   : In Delete
+2021-11-07 10:30:52.276  INFO 14424 --- [http-nio-1234-exec-1] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:30:52.486 ERROR 14424 --- [http-nio-1234-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.EmptyResultDataAccessException: No class com.example.demo.entities.Contact entity with id 6 exists!] with root cause
+
+org.springframework.dao.EmptyResultDataAccessException: No class com.example.demo.entities.Contact entity with id 6 exists!
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.lambda$deleteById$0(SimpleJpaRepository.java:166) ~[spring-data-jpa-2.5.5.jar:2.5.5]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.deleteById(SimpleJpaRepository.java:165) ~[spring-data-jpa-2.5.5.jar:2.5.5]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289) ~[spring-data-commons-2.5.5.jar:2.5.5]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137) ~[spring-data-commons-2.5.5.jar:2.5.5]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121) ~[spring-data-commons-2.5.5.jar:2.5.5]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:529) ~[spring-data-commons-2.5.5.jar:2.5.5]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285) ~[spring-data-commons-2.5.5.jar:2.5.5]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:599) ~[spring-data-commons-2.5.5.jar:2.5.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.10.jar:5.3.10]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:163) ~[spring-data-commons-2.5.5.jar:2.5.5]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:138) ~[spring-data-commons-2.5.5.jar:2.5.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.10.jar:5.3.10]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80) ~[spring-data-commons-2.5.5.jar:2.5.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.10.jar:5.3.10]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.10.jar:5.3.10]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.10.jar:5.3.10]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.10.jar:5.3.10]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.10.jar:5.3.10]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.10.jar:5.3.10]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.10.jar:5.3.10]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174) ~[spring-data-jpa-2.5.5.jar:2.5.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.10.jar:5.3.10]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.10.jar:5.3.10]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.10.jar:5.3.10]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.10.jar:5.3.10]
+	at jdk.proxy6/jdk.proxy6.$Proxy103.deleteById(Unknown Source) ~[na:na]
+	at com.example.demo.service.AddressbookService.delete(AddressbookService.java:42) ~[classes/:na]
+	at com.example.demo.controller.AddressbookController.delete(AddressbookController.java:61) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687) ~[tomcat-embed-core-9.0.53.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.53.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-11-07 10:31:02.309  INFO 14424 --- [http-nio-1234-exec-2] c.e.d.controller.AddressbookController   : In Add
+2021-11-07 10:31:04.175  INFO 14424 --- [http-nio-1234-exec-3] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:31:08.439  INFO 14424 --- [http-nio-1234-exec-6] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:31:08.641  INFO 14424 --- [http-nio-1234-exec-5] c.e.d.controller.AddressbookController   : In Delete
+2021-11-07 10:32:37.535  INFO 14424 --- [http-nio-1234-exec-9] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:32:54.758  INFO 14424 --- [http-nio-1234-exec-1] c.e.d.controller.AddressbookController   : In Add
+2021-11-07 10:32:56.984  INFO 14424 --- [http-nio-1234-exec-10] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:32:58.576  INFO 14424 --- [http-nio-1234-exec-3] c.e.d.controller.AddressbookController   : In Delete
+2021-11-07 10:34:14.635  INFO 14424 --- [http-nio-1234-exec-6] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:34:21.789  INFO 14424 --- [http-nio-1234-exec-5] c.e.d.controller.AddressbookController   : In Add
+2021-11-07 10:34:23.880  INFO 14424 --- [http-nio-1234-exec-8] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:34:25.844  INFO 14424 --- [http-nio-1234-exec-9] c.e.d.controller.AddressbookController   : In Delete
+2021-11-07 10:35:19.188  INFO 14424 --- [http-nio-1234-exec-1] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:35:24.645  INFO 14424 --- [http-nio-1234-exec-10] c.e.d.controller.AddressbookController   : In Add
+2021-11-07 10:35:28.181  INFO 14424 --- [http-nio-1234-exec-2] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:35:31.380  INFO 14424 --- [http-nio-1234-exec-4] c.e.d.controller.AddressbookController   : In Delete
+2021-11-07 10:35:49.454  INFO 14424 --- [http-nio-1234-exec-6] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:35:54.223  INFO 14424 --- [http-nio-1234-exec-5] c.e.d.controller.AddressbookController   : In Add
+2021-11-07 10:35:55.717  INFO 14424 --- [http-nio-1234-exec-8] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:35:57.380  INFO 14424 --- [http-nio-1234-exec-9] c.e.d.controller.AddressbookController   : In Delete
+2021-11-07 10:35:57.393  INFO 14424 --- [http-nio-1234-exec-1] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:43:18.258  INFO 14424 --- [http-nio-1234-exec-2] c.e.d.controller.AddressbookController   : In Add
+2021-11-07 10:44:39.791  INFO 14424 --- [http-nio-1234-exec-4] c.e.d.controller.AddressbookController   : In Add
+2021-11-07 10:44:41.548  INFO 14424 --- [http-nio-1234-exec-6] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:44:49.827  INFO 14424 --- [http-nio-1234-exec-8] c.e.d.controller.AddressbookController   : In Delete
+2021-11-07 10:44:50.428  INFO 14424 --- [http-nio-1234-exec-7] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:44:51.858  INFO 14424 --- [http-nio-1234-exec-1] c.e.d.controller.AddressbookController   : In Delete
+2021-11-07 10:44:52.149  INFO 14424 --- [http-nio-1234-exec-10] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:45:06.692  INFO 14424 --- [http-nio-1234-exec-2] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:45:12.635  INFO 14424 --- [http-nio-1234-exec-3] c.e.d.controller.AddressbookController   : In Add
+2021-11-07 10:45:14.177  INFO 14424 --- [http-nio-1234-exec-4] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:45:15.951  INFO 14424 --- [http-nio-1234-exec-5] c.e.d.controller.AddressbookController   : In Delete
+2021-11-07 10:45:15.961  INFO 14424 --- [http-nio-1234-exec-8] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:45:55.539  INFO 14424 --- [http-nio-1234-exec-7] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:50:02.578  INFO 14424 --- [http-nio-1234-exec-1] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:51:23.538  INFO 14424 --- [http-nio-1234-exec-2] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:54:19.942  INFO 14424 --- [http-nio-1234-exec-4] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:54:22.550  INFO 14424 --- [http-nio-1234-exec-5] c.e.d.controller.AddressbookController   : In Delete
+2021-11-07 10:54:22.559  INFO 14424 --- [http-nio-1234-exec-8] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:54:23.443  INFO 14424 --- [http-nio-1234-exec-9] c.e.d.controller.AddressbookController   : In Delete
+2021-11-07 10:54:23.450  INFO 14424 --- [http-nio-1234-exec-1] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:55:10.270  INFO 14424 --- [http-nio-1234-exec-2] c.e.d.controller.AddressbookController   : In Add
+2021-11-07 10:55:57.520  INFO 14424 --- [http-nio-1234-exec-3] c.e.d.controller.AddressbookController   : In Add
+2021-11-07 10:56:32.284  INFO 14424 --- [http-nio-1234-exec-4] c.e.d.controller.AddressbookController   : In Add
+2021-11-07 10:58:01.642  INFO 14424 --- [http-nio-1234-exec-5] c.e.d.controller.AddressbookController   : In Add
+2021-11-07 10:58:04.301  INFO 14424 --- [http-nio-1234-exec-8] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 10:59:06.629  INFO 14424 --- [http-nio-1234-exec-9] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 11:00:00.943  INFO 14424 --- [http-nio-1234-exec-1] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 11:00:08.331  INFO 14424 --- [http-nio-1234-exec-10] c.e.d.controller.AddressbookController   : In Add
+2021-11-07 11:00:10.219  INFO 14424 --- [http-nio-1234-exec-2] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 11:00:39.186  INFO 14424 --- [http-nio-1234-exec-3] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 11:00:40.766  INFO 14424 --- [http-nio-1234-exec-6] c.e.d.controller.AddressbookController   : In Delete
+2021-11-07 11:00:40.778  INFO 14424 --- [http-nio-1234-exec-5] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 11:00:41.505  INFO 14424 --- [http-nio-1234-exec-7] c.e.d.controller.AddressbookController   : In Delete
+2021-11-07 11:00:41.519  INFO 14424 --- [http-nio-1234-exec-9] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 11:00:42.266  INFO 14424 --- [http-nio-1234-exec-10] c.e.d.controller.AddressbookController   : In Delete
+2021-11-07 11:00:42.281  INFO 14424 --- [http-nio-1234-exec-2] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 11:00:43.303  INFO 14424 --- [http-nio-1234-exec-4] c.e.d.controller.AddressbookController   : In Delete
+2021-11-07 11:00:43.313  INFO 14424 --- [http-nio-1234-exec-6] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 11:00:44.931  INFO 14424 --- [http-nio-1234-exec-8] c.e.d.controller.AddressbookController   : In Delete
+2021-11-07 11:00:44.945  INFO 14424 --- [http-nio-1234-exec-7] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 11:01:09.858  INFO 14424 --- [http-nio-1234-exec-9] c.e.d.controller.AddressbookController   : In Add
+2021-11-07 11:01:19.257  INFO 14424 --- [http-nio-1234-exec-1] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 11:01:21.024  INFO 14424 --- [http-nio-1234-exec-2] c.e.d.controller.AddressbookController   : In Delete
+2021-11-07 11:01:21.037  INFO 14424 --- [http-nio-1234-exec-3] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 11:01:32.429  INFO 14424 --- [http-nio-1234-exec-4] c.e.d.controller.AddressbookController   : In Add
+2021-11-07 11:01:59.238  INFO 14424 --- [http-nio-1234-exec-6] c.e.d.controller.AddressbookController   : In Add
+2021-11-07 11:02:34.588  INFO 14424 --- [http-nio-1234-exec-5] c.e.d.controller.AddressbookController   : In Add
+2021-11-07 11:03:38.633  INFO 14424 --- [http-nio-1234-exec-7] c.e.d.controller.AddressbookController   : In Add
+2021-11-07 11:03:40.629  INFO 14424 --- [http-nio-1234-exec-9] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 11:04:18.562  INFO 14424 --- [http-nio-1234-exec-1] c.e.d.controller.AddressbookController   : In GetAll
+2021-11-07 11:46:19.414  WARN 14424 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=21m3s184ms378µs700ns).
