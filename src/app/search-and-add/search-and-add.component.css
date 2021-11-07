@@ -1,0 +1,78 @@
+.header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 76%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.emp-detail-text{
+    font: normal normal bold 24px/25px Roboto;
+    letter-spacing: 0px;
+    color: #42515f;
+    opacity: 1;
+}
+
+.emp-count{
+    background-color: #82a70c;
+    color: #ffffff;
+    border-radius: 42%;
+    font-size: 16px;
+    width: 26px;
+    text-align: center;
+    display: inline-block;
+}
+
+.add-button{
+    font: normal normal normal 22px/29px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    background: #008CFF 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 18px;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+img{
+    justify-content: center;
+    margin-right: 12px;
+    margin-left: 12px;
+    height:fit-content;
+}
+
+.add-button img{
+    margin-top: 3px;
+    margin-left: 0px;
+}
+
+a{
+    display: flex;
+    justify-items: center;
+}
+
+.search-and-add-button{
+    display: flex;
+}
+
+.search{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 3px #00000029;
+    width: min-content;
+    border-radius: 28px;
+    opacity: 1;
+    display: flex;
+    margin-right: 20px;
+}
+
+.magi{
+    padding: 8px;
+}
